@@ -1,5 +1,4 @@
-body {}
-
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
 .container {
     align-items: center;
     display: flex;
@@ -9,3 +8,22 @@ body {}
     height: 100vh;
     background: linear-gradient(to top, hsl(240, 73%, 65%), hsl(273, 75%, 66%));
 }
+
+.tarjeta {
+    display: flex;
+    background-color: white;
+    border-radius: 5%;
+    align-items: center;
+    width: 60vw;
+    height: 75vh;
+}
+
+.acordeon {
+    width: 60vw;
+    height: 75vh;
+    background-color: white;
+    align-items: center;
+    border-radius: 5%;
+}
+
+.acordeon>h1 {}
