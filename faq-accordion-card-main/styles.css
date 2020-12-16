@@ -30,18 +30,57 @@ body {
 }
 
 .caja {
-    width: 180px;
-    height: 180px;
-    transform: translateY(-250px) translateX(-90px);
+    display: flex;
+    transform: translateY(-250px) translateX(-60px);
 }
 
 .imagen {
     justify-content: center;
     padding-right: 20px;
+    padding-top: 100px;
+    background-image: url(images/bg-pattern-desktop.svg);
+    background-size: 600px;
+    background-position-y: -20px;
+    background-position-x: -110px;
 }
 
-.imagen>img {
+.woman-online {
     display: flex;
-    transform: translateX(-60px);
+    size: 20px;
+    transform: translateX(-20px);
     position: relative;
+}
+
+details {
+    cursor: pointer;
+}
+
+details[open]>summary {
+    font-weight: bold;
+}
+
+details>summary {
+    display: flex;
+    justify-content: space-between;
+}
+
+details>summary::-webkit-details-marker {
+    display: none;
+}
+
+details>summary::after {
+    content: url(./images/icon-arrow-down.svg);
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-flex;
+}
+
+details[open]>summary::after {
+    transform: rotate(180deg);
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
 }
