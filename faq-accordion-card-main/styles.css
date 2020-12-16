@@ -1,0 +1,11 @@
+body {}
+
+.container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /*padding-top: 35%;
+    padding-bottom: 40%;*/
+    height: 100vh;
+    background: linear-gradient(to top, hsl(240, 73%, 65%), hsl(273, 75%, 66%));
+}
