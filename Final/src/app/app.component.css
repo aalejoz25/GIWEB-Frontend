@@ -1,0 +1,16 @@
+.navbar-brand {
+    font-family: 'Tangerine', serif;
+    font-size: 35px;
+}
+
+.figure {
+    width: 150px;
+    height: 20px;
+    margin-left: 45vmax;
+    margin-top: 17px;
+    margin-bottom: 20px;
+}
+
+.container {
+    margin-top: 40px;
+}
