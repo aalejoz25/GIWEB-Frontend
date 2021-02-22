@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+}
+
+body,
+header,
+section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.note {
+    color: #381d2a;
+}
+
+.titulo {
+    width: 100%;
+    margin: 3% 0 2% 0;
+}
+
+body {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fcde9c), to(#c4d6b0));
+    background-image: linear-gradient(#fcde9c, #c4d6b0);
+    color: #ba5624;
+}
+
+header {
+    width: 80%;
+}
+
+header .nombre {
+    text-align: center;
+    margin: 3% 0 3% 0;
+    width: 100%;
+}
+
+header .profile {
+    width: 20%;
+}
+
+header .profile .profilePhoto {
+    border-radius: 20%;
+}
+
+section {
+    width: 90%;
+    margin: 3% 0 3% 0;
+}
+
+.infoAcademica {
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.referencias {
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+footer {
+    margin: 3% 0 2% 0;
+}
